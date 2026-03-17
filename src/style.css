@@ -54,6 +54,16 @@ a { color: inherit; text-decoration: none; }
   gap: 16px;
 }
 
+.nav-links a {
+  font-size: 1rem;
+  padding: 0.55rem 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #14532d; /* verde mais escuro */
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
