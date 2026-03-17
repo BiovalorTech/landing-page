@@ -93,11 +93,12 @@ a { color: inherit; text-decoration: none; }
 .nav-links a {
   font-size: 1rem;
   padding: 0.55rem 0.8rem;
+  color: var(--muted);
   transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #124d2e; /* verde mais escuro */
+  color: #14532d; /* verde mais escuro */
 }
 
 .hero {
