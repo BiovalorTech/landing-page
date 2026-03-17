@@ -522,10 +522,43 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .nav-inner {
-    min-height: 76px;
-    position: relative;
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background: #e5eee3; /* mais escuro que o fundo da nav */
+    border: 1px solid #cfdccc;
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    padding: 10px;
   }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+
+  .nav-links a:hover {
+    background: rgba(31, 111, 67, 0.12);
+    color: #14532d;
+  }
+
+  .nav-links a:active,
+  .nav-links a:focus-visible {
+    background: #1f6f43;
+    color: #f7fff8;
+  }
+}
 
   .brand img {
     height: 44px;
