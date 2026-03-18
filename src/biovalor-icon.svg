@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Ícone Biovalor com fundo">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5A15A"/>
+      <stop offset="100%" stop-color="#E68A3F"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A2C85B"/>
+      <stop offset="100%" stop-color="#7EAF47"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background based on Biovalor site color -->
+  <rect x="0" y="0" width="128" height="128" rx="24" fill="#F6F8F2"/>
+
+  <!-- orange leaf -->
+  <path d="M46 78
+           C 28 72, 21 53, 27 35
+           C 30 26, 36 18, 42 13
+           C 45 25, 52 34, 60 42
+           C 73 56, 79 67, 77 86
+           C 68 84, 57 82, 46 78 Z"
+        fill="url(#orangeGrad)"/>
+  <path d="M45 34
+           C 56 44, 66 53, 72 66
+           C 75 72, 77 79, 78 86"
+        fill="none" stroke="#8A5C2C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- green leaf outer -->
+  <path d="M67 96
+           L67 74
+           C 67 44, 87 18, 112 10
+           C 116 31, 115 60, 100 79
+           C 91 90, 80 96, 67 96 Z"
+        fill="url(#greenGrad)"/>
+  <!-- green leaf inner cutout -->
+  <path d="M79 78
+           L79 62
+           C 79 43, 91 28, 104 22
+           C 105 38, 103 54, 93 66
+           C 89 71, 84 75, 79 78 Z"
+        fill="#ffffff" fill-opacity="0.35"/>
+
+  <!-- central stem overlap -->
+  <path d="M61 88 C 61 74, 61 63, 63 52 C 65 43, 67 37, 70 30"
+        fill="none" stroke="#7EAF47" stroke-width="5" stroke-linecap="round"/>
+</svg>
